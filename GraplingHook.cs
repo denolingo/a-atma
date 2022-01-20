@@ -25,7 +25,7 @@ public class GraplingHook : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(1))
         {
             RaycastHit hit;
             if (Physics.SphereCast(kamera.transform.position, AimAssist, kamera.transform.forward, out hit, Mesafe, Tutunulabilir))
